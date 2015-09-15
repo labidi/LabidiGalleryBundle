@@ -1,0 +1,3 @@
+labidi_gallery_homepage:
+    path:     /
+    defaults: { _controller: LabidiGalleryBundle:Default:index }
