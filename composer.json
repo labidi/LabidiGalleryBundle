@@ -1,0 +1,32 @@
+{
+    "name" : "labidi/gallery-bundle",
+    "description" : "photos manager for symfony 2",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "labidi saddem",
+        "email" : "labidi.saddem@gmail.com",
+        "homepage": "http://www.saddem-labidi.com"
+    }],
+    "keywords" : [
+        "photos, manager , gallery"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require": {
+        "php": ">=5.3.2",
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Labidi\\GalleryBundle" : ""
+        }
+    },
+    "target-dir" : "Labidi/GalleryBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "0.0.1-dev"
+        }
+    }
+}
